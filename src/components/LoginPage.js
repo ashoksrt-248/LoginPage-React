@@ -32,7 +32,7 @@ const LoginPage = () => {
                 <input type="mail" placeholder='email id' value={email} onChange={(e) => setEmail(e.target.value)} /><br /><br />
                 <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /><br /><br />
                 <button onClick={handleLogin}>Login</button><br />
-                <p className='para' onClick={handleForgotPassword}><a><b>Forgot Password ???</b></a></p>
+                <p className='para' onClick={handleForgotPassword}><a href='#'><b>Forgot Password ???</b></a></p>
             </div>
         </div>
     );
