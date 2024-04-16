@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+input{
+  width: 270px;
+  height: 30px;
+  border: 1px solid whitesmoke;
+
+}
+h1{color:sandybrown;}
+button{
+  width: 275px;
+  height: 30px;
+  background-color: darkcyan;
+  border: 1px solid white;
+  color: aliceblue;
+}
+.para{
+color:chocolate;
+}
+/*.LoginPage{
+    background-color:darkkhaki;
+    width: 400px;
+    height:300px;
+    margin: 0 auto;
+    
+}
+
+.LoginComponent{
+    margin-left: 28%;
+}
+.loginHeading{
+   margin-left: 40%;
+}
+*/
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
