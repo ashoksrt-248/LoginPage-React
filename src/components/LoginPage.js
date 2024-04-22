@@ -27,7 +27,7 @@ const LoginPage = () => {
     return (
         <div className='LoginPage' >
             <div className='LoginComponent'>
-                <h2>Login with Your Details</h2>
+                <h2>Login with Your Details!...</h2>
                 <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} /><br /><br />
                 <input type="mail" placeholder='email id' value={email} onChange={(e) => setEmail(e.target.value)} /><br /><br />
                 <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /><br /><br />
